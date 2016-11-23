@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode8
+xcode_project: spike-qrcode.xcworkspace
+xcode_scheme: spike-qrcode
+xcode_sdk: iphonesimulator10.0
