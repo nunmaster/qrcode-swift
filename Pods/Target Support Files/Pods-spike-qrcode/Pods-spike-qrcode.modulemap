@@ -1,0 +1,6 @@
+framework module Pods_spike_qrcode {
+  umbrella header "Pods-spike-qrcode-umbrella.h"
+
+  export *
+  module * { export * }
+}

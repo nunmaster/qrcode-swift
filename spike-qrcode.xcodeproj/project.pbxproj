@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA97585F94224CE90A1C405D /* Pods_spike_qrcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A02CA5F038AD521362D0E34 /* Pods_spike_qrcode.framework */; };
+		EFBFBAC31DDEA0E100DDF8A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFBAC21DDEA0E100DDF8A3 /* AppDelegate.swift */; };
+		EFBFBAC51DDEA0E100DDF8A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFBAC41DDEA0E100DDF8A3 /* ViewController.swift */; };
+		EFBFBAC81DDEA0E100DDF8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBFBAC61DDEA0E100DDF8A3 /* Main.storyboard */; };
+		EFBFBACA1DDEA0E100DDF8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBFBAC91DDEA0E100DDF8A3 /* Assets.xcassets */; };
+		EFBFBACD1DDEA0E100DDF8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBFBACB1DDEA0E100DDF8A3 /* LaunchScreen.storyboard */; };
+		EFBFBAD51DDEE76200DDF8A3 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBFBAD41DDEE76200DDF8A3 /* ScannerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A02CA5F038AD521362D0E34 /* Pods_spike_qrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spike_qrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB40FD73EBA000A797FF801C /* Pods-spike-qrcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spike-qrcode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spike-qrcode/Pods-spike-qrcode.debug.xcconfig"; sourceTree = "<group>"; };
+		D167AA301914FFB201AC3D95 /* Pods-spike-qrcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spike-qrcode.release.xcconfig"; path = "Pods/Target Support Files/Pods-spike-qrcode/Pods-spike-qrcode.release.xcconfig"; sourceTree = "<group>"; };
+		EF1353631DE2E50A009B0C3C /* key.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = key.xcconfig; sourceTree = "<group>"; };
+		EFBFBABF1DDEA0E100DDF8A3 /* spike-qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spike-qrcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBFBAC21DDEA0E100DDF8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFBFBAC41DDEA0E100DDF8A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFBFBAC71DDEA0E100DDF8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFBFBAC91DDEA0E100DDF8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBFBACC1DDEA0E100DDF8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFBFBACE1DDEA0E100DDF8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBFBAD41DDEE76200DDF8A3 /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBFBABC1DDEA0E100DDF8A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA97585F94224CE90A1C405D /* Pods_spike_qrcode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C74A79E0E67054D7CB79042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB40FD73EBA000A797FF801C /* Pods-spike-qrcode.debug.xcconfig */,
+				D167AA301914FFB201AC3D95 /* Pods-spike-qrcode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		23014B8CCBC527788AD56425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A02CA5F038AD521362D0E34 /* Pods_spike_qrcode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFBFBAB61DDEA0E100DDF8A3 = {
+			isa = PBXGroup;
+			children = (
+				EFBFBAC11DDEA0E100DDF8A3 /* spike-qrcode */,
+				EFBFBAC01DDEA0E100DDF8A3 /* Products */,
+				1C74A79E0E67054D7CB79042 /* Pods */,
+				23014B8CCBC527788AD56425 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBFBAC01DDEA0E100DDF8A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFBABF1DDEA0E100DDF8A3 /* spike-qrcode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBFBAC11DDEA0E100DDF8A3 /* spike-qrcode */ = {
+			isa = PBXGroup;
+			children = (
+				EFBFBAC21DDEA0E100DDF8A3 /* AppDelegate.swift */,
+				EFBFBAC41DDEA0E100DDF8A3 /* ViewController.swift */,
+				EFBFBAD41DDEE76200DDF8A3 /* ScannerViewController.swift */,
+				EFBFBAC61DDEA0E100DDF8A3 /* Main.storyboard */,
+				EFBFBACB1DDEA0E100DDF8A3 /* LaunchScreen.storyboard */,
+				EFBFBAC91DDEA0E100DDF8A3 /* Assets.xcassets */,
+				EFBFBACE1DDEA0E100DDF8A3 /* Info.plist */,
+				EF1353631DE2E50A009B0C3C /* key.xcconfig */,
+			);
+			path = "spike-qrcode";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBFBABE1DDEA0E100DDF8A3 /* spike-qrcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBFBAD11DDEA0E100DDF8A3 /* Build configuration list for PBXNativeTarget "spike-qrcode" */;
+			buildPhases = (
+				A3B8106AF291A40DD2A9BD65 /* [CP] Check Pods Manifest.lock */,
+				EFBFBABB1DDEA0E100DDF8A3 /* Sources */,
+				EFBFBABC1DDEA0E100DDF8A3 /* Frameworks */,
+				EFBFBABD1DDEA0E100DDF8A3 /* Resources */,
+				F7A049B4249868D552F019D8 /* [CP] Embed Pods Frameworks */,
+				F219FCA803F6682A8A228FC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spike-qrcode";
+			productName = "spike-qrcode";
+			productReference = EFBFBABF1DDEA0E100DDF8A3 /* spike-qrcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBFBAB71DDEA0E100DDF8A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = nun;
+				TargetAttributes = {
+					EFBFBABE1DDEA0E100DDF8A3 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EFBFBABA1DDEA0E100DDF8A3 /* Build configuration list for PBXProject "spike-qrcode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBFBAB61DDEA0E100DDF8A3;
+			productRefGroup = EFBFBAC01DDEA0E100DDF8A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBFBABE1DDEA0E100DDF8A3 /* spike-qrcode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBFBABD1DDEA0E100DDF8A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFBACD1DDEA0E100DDF8A3 /* LaunchScreen.storyboard in Resources */,
+				EFBFBACA1DDEA0E100DDF8A3 /* Assets.xcassets in Resources */,
+				EFBFBAC81DDEA0E100DDF8A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3B8106AF291A40DD2A9BD65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F219FCA803F6682A8A228FC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spike-qrcode/Pods-spike-qrcode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7A049B4249868D552F019D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spike-qrcode/Pods-spike-qrcode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBFBABB1DDEA0E100DDF8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBFBAC51DDEA0E100DDF8A3 /* ViewController.swift in Sources */,
+				EFBFBAD51DDEE76200DDF8A3 /* ScannerViewController.swift in Sources */,
+				EFBFBAC31DDEA0E100DDF8A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFBFBAC61DDEA0E100DDF8A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBFBAC71DDEA0E100DDF8A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFBFBACB1DDEA0E100DDF8A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBFBACC1DDEA0E100DDF8A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBFBACF1DDEA0E100DDF8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFBFBAD01DDEA0E100DDF8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBFBAD21DDEA0E100DDF8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB40FD73EBA000A797FF801C /* Pods-spike-qrcode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "spike-qrcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nonthanun.spike-qrcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFBFBAD31DDEA0E100DDF8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D167AA301914FFB201AC3D95 /* Pods-spike-qrcode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "spike-qrcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nonthanun.spike-qrcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBFBABA1DDEA0E100DDF8A3 /* Build configuration list for PBXProject "spike-qrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBFBACF1DDEA0E100DDF8A3 /* Debug */,
+				EFBFBAD01DDEA0E100DDF8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBFBAD11DDEA0E100DDF8A3 /* Build configuration list for PBXNativeTarget "spike-qrcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBFBAD21DDEA0E100DDF8A3 /* Debug */,
+				EFBFBAD31DDEA0E100DDF8A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBFBAB71DDEA0E100DDF8A3 /* Project object */;
+}
