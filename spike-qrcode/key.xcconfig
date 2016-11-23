@@ -1,9 +1,0 @@
-//
-//  key.xcconfig
-//  spike-qrcode
-//
-//  Created by Nonthanun Sudlapa on 11/21/2559 BE.
-//  Copyright © 2559 nun. All rights reserved.
-//
-
-PUBLIC_KEY = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCs+8nNwIxd5LAXuSyoZQiUOfGxi+l7LPJoEzT6EmSc/TdJQC4POkwUjYvuBAIs+2Vd4oG/c2C2yisscSdMNltZ/jNxYDn0CuCudiEQfn8ODJAxawTkk0sofZtHEC2YqhuHi7ShOjAt1E+/uF6MblYKdK7CuCPuTXg4w1XbzqT5+g8E9cY2ydw97cuhbQTIYYdAhHC2dPfF7Tgfq66S//Nw+vkI/YoIW706MSRzhz3NToVuqZXZdMkkgSiujxvX2Exdgon9AYrXSwcFmv9FF7AO2GeJ1DJkHHkdv+aIjQ/BI84tjbYskwDCRRcdCgso19QKqYIlQpu2UdD8UtkLIgH5

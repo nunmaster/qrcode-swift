@@ -20,7 +20,6 @@
 		0A02CA5F038AD521362D0E34 /* Pods_spike_qrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spike_qrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB40FD73EBA000A797FF801C /* Pods-spike-qrcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spike-qrcode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spike-qrcode/Pods-spike-qrcode.debug.xcconfig"; sourceTree = "<group>"; };
 		D167AA301914FFB201AC3D95 /* Pods-spike-qrcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spike-qrcode.release.xcconfig"; path = "Pods/Target Support Files/Pods-spike-qrcode/Pods-spike-qrcode.release.xcconfig"; sourceTree = "<group>"; };
-		EF1353631DE2E50A009B0C3C /* key.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = key.xcconfig; sourceTree = "<group>"; };
 		EFBFBABF1DDEA0E100DDF8A3 /* spike-qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spike-qrcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBFBAC21DDEA0E100DDF8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFBFBAC41DDEA0E100DDF8A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,7 +87,6 @@
 				EFBFBACB1DDEA0E100DDF8A3 /* LaunchScreen.storyboard */,
 				EFBFBAC91DDEA0E100DDF8A3 /* Assets.xcassets */,
 				EFBFBACE1DDEA0E100DDF8A3 /* Info.plist */,
-				EF1353631DE2E50A009B0C3C /* key.xcconfig */,
 			);
 			path = "spike-qrcode";
 			sourceTree = "<group>";
